@@ -1,5 +1,5 @@
 import { TemaProvider } from "./context/TemaContexto"
-import Home from "./pages/Home"
+
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <TemaProvider>
-      <Home />
+      
     </TemaProvider>
   )
 }

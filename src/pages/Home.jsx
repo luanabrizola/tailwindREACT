@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { TemaContext } from "../context/TemaContexto";
 
-export function Home() {
+function Home() {
   const { tema, alternarTema } = useContext(TemaContext);
 
   return (
@@ -22,3 +22,5 @@ export function Home() {
     </div>
   );
 }
+
+export default Home
